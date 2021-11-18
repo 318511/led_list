@@ -1,19 +1,3 @@
-function 正常 () {
-    list2 = [
-    0,
-    1,
-    0,
-    1,
-    0
-    ]
-    for (let index = 0; index <= 4; index++) {
-        if (list2[index] == 1) {
-            led.plot(index, 0)
-        } else {
-            led.unplot(index, 0)
-        }
-    }
-}
 function heart () {
     list = [
     [
@@ -63,7 +47,5 @@ function heart () {
     }
 }
 let list: number[][] = []
-let list2: number[] = []
 heart()
 basic.pause(100)
-正常()
