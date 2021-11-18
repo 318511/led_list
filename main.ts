@@ -45,6 +45,7 @@ function heart () {
             }
         }
     }
+    basic.pause(100)
 }
 let list: number[][] = []
 heart()
